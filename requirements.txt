@@ -1,0 +1,30 @@
+﻿#cv and computer vision - core packages that work
+opencv-python>=4.8.0
+
+#image processing
+Pillow>=10.0.0
+numpy>=1.26.0
+
+#framework and APIs
+Flask>=2.3.0
+Flask-SQLAlchemy>=3.0.0
+Flask-CORS>=4.0.0
+
+#utils
+python-dotenv>=1.0.0
+python-dateutil>=2.8.0
+
+#dev and testing
+pytest>=7.4.0
+pytest-flask>=1.2.0
+
+# face recognition packages (install later after CMake setup)
+# face-recognition>=1.3.0
+#dlib>=19.24.0
+#if performance is necessary* if using gpu - uncomment and use
+#tensorflow>=2.13.0
+#torch>=2.0.1
+
+#for more advanced image processing uncomment if want to use
+#scikit-image>=0.21.0
+#matplotlib>=3.7.0
